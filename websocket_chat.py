@@ -9,7 +9,6 @@ templates = Jinja2Templates(directory="templates")
 
 @app.get("/")
 async def get(request: Request):
-    # return templates.TemplateResponse("ws.html", {"request": request})
     return templates.TemplateResponse("ws_chat.html", {"request": request})
 
 @app.websocket("/chatting") # 현재, 소켓통신은 ws://localhost:8000/chatting 을 통해 통신중

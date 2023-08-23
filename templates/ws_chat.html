@@ -85,7 +85,6 @@
                 
                 event.preventDefault();
             }
-
             function initWebSocket(userId) {
                 var ws = new WebSocket("ws://localhost:8000/chatting");  // 웹소켓 엔드포인트 URL
                 var messages = document.getElementById('chat_window');
