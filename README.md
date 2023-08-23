@@ -1,4 +1,4 @@
-# websocket_chat
+# websocket_chat 사용법 정리
 
 pip install fastapi<br>
 pip install uvicorn<br>
