@@ -20,3 +20,5 @@ var ws = new WebSocket("ws://서버의ip주소:8000/chatting");
 그리고 uvicorn websocket_chat:app --reload --host 0.0.0.0  으로 실행해주세요  
 
 서버의 ip주소는 cmd 창에서 ipconfig 했을 시에 IPv4 주소가 본인의 ip 주소입니다.  
+브라우저에서 http://서버ip주소:8000 접속하면 됩니다.
+
